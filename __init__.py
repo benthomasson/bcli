@@ -1,3 +1,15 @@
+"""
+bcli contains a set of unix commands that can be called as functions from 
+a python shell. Each command can be called with its arguments as parameters
+to the function.
+
+>>> ls()
+>>> ls('-al')
+>>> ls('foo*')
+>>> du('-hs')
+>>> df('-h')
+
+"""
 
 __all__ = ['ls',
            'grep',
