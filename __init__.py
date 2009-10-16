@@ -7,7 +7,7 @@ to the function.
 >>> ls('-al')
 >>> ls('foo*')
 >>> du('-hs')
->>> df('-h')
+>>> df('-h','.')
 
 """
 
